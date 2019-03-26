@@ -44,3 +44,15 @@ event_helper_submit('new_vendor_registration_form', function() { convead('event'
 var handler = function(event, productData, amount) { console.log('add-to-cart', event, productData, amount); }
 $(window).on('m.add-to-cart', handler);
 ```
+
+## Данные в `gon`
+
+* gon.controller_name - string
+* gon.action_name -
+* gon.product - object (exists only on product page)
+
+### controller#action
+
+* welcome#index - home page
+* categories#show
+* products#show
