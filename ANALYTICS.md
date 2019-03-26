@@ -45,6 +45,13 @@ var handler = function(event, productData, amount) { console.log('add-to-cart', 
 $(window).on('m.add-to-cart', handler);
 ```
 
+### product data example:
+
+#### home page or products list (category page)
+
+https://user-images.githubusercontent.com/31139/55017048-fd376980-5000-11e9-9ac5-1b01501a6dcc.png
+
+
 ## Данные в `gon`
 
 * gon.controller_name - string
