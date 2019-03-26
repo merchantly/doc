@@ -24,3 +24,10 @@ if (gon.product) {
 ## Кнопка "Добавить в корзину"
 
 Кнопка имеет особый класс `.b-btn-add-cart`. Для события добавления в корзину используйте его.
+
+
+## В помощь событиям на submit
+
+```js
+event_helper_submit('new_vendor_registration_form', function() { convead('event', 'submit_form'); }));
+```
