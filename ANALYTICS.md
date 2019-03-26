@@ -49,7 +49,12 @@ $(window).on('m.add-to-cart', handler);
 
 #### home page or products list (category page)
 
-https://user-images.githubusercontent.com/31139/55017048-fd376980-5000-11e9-9ac5-1b01501a6dcc.png
+![Screen Shot 2019-03-26 at 19 54 12](https://user-images.githubusercontent.com/31139/55017048-fd376980-5000-11e9-9ac5-1b01501a6dcc.png)
+
+
+### product page
+
+![Screen Shot 2019-03-26 at 19 55 51](https://user-images.githubusercontent.com/31139/55017160-34a61600-5001-11e9-9de8-b9e42feb0717.png
 
 
 ## Данные в `gon`
