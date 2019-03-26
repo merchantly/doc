@@ -31,3 +31,6 @@ if (gon.product) {
 ```js
 event_helper_submit('new_vendor_registration_form', function() { convead('event', 'submit_form'); }));
 ```
+
+
+Где `new_vendor_registration_form` - id элемента формы
