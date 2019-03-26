@@ -11,11 +11,11 @@
 
 ```
 if (gon.product) {
-carrotquest.track('$cart_added', {
+  carrotquest.track('$cart_added', {
     "$name": gon.product.name,
     "$url": gon.product.url,
     "$amount": gon.product.price,
     "$img": gon.product.image_url,
-});
+  });
 };
 ```
