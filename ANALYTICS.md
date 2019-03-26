@@ -41,6 +41,6 @@ event_helper_submit('new_vendor_registration_form', function() { convead('event'
 ### В момент добавления товара в корзину `m.add-to-cart`
 
 ```
-var handler = function(event, data) { console.log('add-to-cart', event, data); }
+var handler = function(event, productData, amount) { console.log('add-to-cart', event, productData, amount); }
 $(window).on('m.add-to-cart', handler);
 ```
