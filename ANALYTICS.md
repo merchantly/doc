@@ -34,3 +34,13 @@ event_helper_submit('new_vendor_registration_form', function() { convead('event'
 
 
 Где `new_vendor_registration_form` - id элемента формы
+
+
+## События на странице
+
+### В момент добавления товара в корзину `m.add-to-cart`
+
+```
+var handler = function(event, data) { console.log('add-to-cart', event, data); }
+$(window).on('m.add-to-cart', handler);
+```
