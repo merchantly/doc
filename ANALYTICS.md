@@ -32,7 +32,6 @@ if (gon.product) {
 event_helper_submit('new_vendor_registration_form', function() { convead('event', 'submit_form'); }));
 ```
 
-
 Где `new_vendor_registration_form` - id элемента формы
 
 
@@ -45,9 +44,17 @@ var handler = function(event, productData, amount) { console.log('add-to-cart', 
 $(window).on('m.add-to-cart', handler);
 ```
 
-### product data example:
+### В момент нажания на "Оформить заказ", из корзины: `m.cart-submit`
 
-#### home page or products list (category page)
+* `$(window).trigger('m.cart-submit', this.props.cartItems, this.props.packageItem);`
+
+### В момент отображения страницы оформления заказа (ввод адреса и оплаты) `m.initial-checkout`
+
+* `$(window).trigger('m.initial-checkout', cart, coupon);`
+
+## product data example:
+
+### home page or products list (category page)
 
 ![category page](https://user-images.githubusercontent.com/31139/55017048-fd376980-5000-11e9-9ac5-1b01501a6dcc.png)
 
