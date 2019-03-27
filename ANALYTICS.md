@@ -46,7 +46,15 @@ $(window).on('m.add-to-cart', handler);
 
 ### В момент нажания на "Оформить заказ", из корзины: `m.cart-submit`
 
-* `$(window).trigger('m.cart-submit', this.props.cartItems, this.props.packageItem);`
+* `$(window).trigger('m.cart-submit', cartItems, packageItem);`
+
+cartItems:
+
+![cartItems](https://user-images.githubusercontent.com/31139/55071328-65398e80-5099-11e9-8f97-329ee246384b.png)
+
+packageItem:
+
+![packageItem](https://user-images.githubusercontent.com/31139/55071327-64a0f800-5099-11e9-876a-0cc20c199f69.png)
 
 ### В момент отображения страницы оформления заказа (ввод адреса и оплаты) `m.initial-checkout`
 
