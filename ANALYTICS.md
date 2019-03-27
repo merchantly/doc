@@ -60,6 +60,10 @@ packageItem:
 
 * `$(window).trigger('m.initial-checkout', cart, coupon);`
 
+cart:
+
+![cart](https://user-images.githubusercontent.com/31139/55071463-bc3f6380-5099-11e9-88ac-a0779af2abc8.png)
+
 ## product data example:
 
 ### home page or products list (category page)
