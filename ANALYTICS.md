@@ -73,6 +73,12 @@ $(window).on('m.add-to-cart', handler);
     });
 ```
 
+## В момент добавления товара в wishlist `m.add-to-wishlist`
+
+```
+$(window).trigger('m.add-to-wishlist', [this.props.product]); 
+```
+
 ## product data example:
 
 ### home page or products list (category page)
