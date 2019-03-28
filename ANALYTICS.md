@@ -56,6 +56,15 @@ $(window).on('m.add-to-cart', handler);
 
 * `$(window).trigger('m.product', product);`
 
+## В момент клика на "Продолжить" на странице оформления заказа (/cart/continue) `m.checkout`
+
+```
+    $(window).trigger('m.checkout', {
+      cart: this.props.cart,
+      totalCount: this.props.totalCount,
+      totalPrice: this.props.totalPrice
+    });
+```
 
 ## product data example:
 
