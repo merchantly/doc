@@ -46,28 +46,15 @@ $(window).on('m.add-to-cart', handler);
 
 ### В момент нажания на "Оформить заказ", из корзины: `m.cart-submit`
 
-* `$(window).trigger('m.cart-submit', cartItems, packageItem);`
-
-cartItems:
-
-![cartItems](https://user-images.githubusercontent.com/31139/55071328-65398e80-5099-11e9-8f97-329ee246384b.png)
-
-packageItem:
-
-![packageItem](https://user-images.githubusercontent.com/31139/55071327-64a0f800-5099-11e9-876a-0cc20c199f69.png)
+* `$(window).trigger('m.cart-submit', [cartItems, packageItem]);`
 
 ### В момент отображения страницы оформления заказа (ввод адреса и оплаты) `m.initial-checkout`
 
-* `$(window).trigger('m.initial-checkout', cart, coupon);`
-
-cart:
-
-![cart](https://user-images.githubusercontent.com/31139/55071463-bc3f6380-5099-11e9-88ac-a0779af2abc8.png)
+* `$(window).trigger('m.initial-checkout', [cart, coupon]);`
 
 ### В момент отображения страницы товара `m.product`
 
 * `$(window).trigger('m.product', product);`
-
 
 
 ## product data example:
@@ -76,11 +63,9 @@ cart:
 
 ![category page](https://user-images.githubusercontent.com/31139/55017048-fd376980-5000-11e9-9ac5-1b01501a6dcc.png)
 
-
 ### product page
 
 ![product page](https://user-images.githubusercontent.com/31139/55017160-34a61600-5001-11e9-9de8-b9e42feb0717.png)
-
 
 ### wishlist page
 
