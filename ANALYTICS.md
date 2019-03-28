@@ -1,3 +1,10 @@
+## Места где встречаеются кастомный html и JS:
+
+* https://365detox.kiiiosk.ru/operator/extra_html (HTML для всех страниц: В конце <head>, В конце <body>, Перед <footer>)
+* https://365detox.kiiiosk.ru/operator/footer (HTML код между нижними строками)
+* https://365detox.kiiiosk.ru/operator/integration/google_analytics
+* https://365detox.kiiiosk.ru/operator/integration/yandex_metrika
+
 ## Страница товара
 
 А каждой странице товара существует переменная `gon.product` - объект, который присутствует в Javascript, на странице товара и содержит следующие поля:
