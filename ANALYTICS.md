@@ -1,3 +1,7 @@
+## TODO
+
+* [ ] Добавить `m.submit-order` на другие способы оплаты.
+
 ## Места где встречаеются кастомный html и JS:
 
 * https://365detox.kiiiosk.ru/operator/extra_html (HTML для всех страниц: В конце <head>, В конце <body>, Перед <footer>)
