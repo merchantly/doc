@@ -79,6 +79,18 @@ $(window).on('m.add-to-cart', handler);
 $(window).trigger('m.add-to-wishlist', [this.props.product]); 
 ```
 
+## В момент отображения страницы оформленного онлайн заказа, перед редиректом на сервис оплаты `m.order-submit`
+
+```
+ $(window).trigger('m.order-submit', [this.props.order, true]);
+```
+
+## В момент отображения страницы оформленного заказа на оплату при получении, `m.order-submit`
+
+```
+ $(window).trigger('m.order-submit', [this.props.order, false]);
+```
+
 ## product data example:
 
 ### home page or products list (category page)
